@@ -1,14 +1,17 @@
-import { SignInButton } from '@clerk/clerk-react'
-import React from 'react'
-import { Button } from './components/ui/button'
+// import { SignInButton } from '@clerk/clerk-react'
+// import React from 'react'
+// import { Button } from './components/ui/button'
+
+import Header from './components/Header'
 
 function Home() {
   return (
-    <div>
-      <SignInButton mode="model" forceRedirectUrl="/">
-        <Button>Sign In</Button>
-      </SignInButton>
-    </div>
+    <>
+      {/* Header */}
+      <Header />
+
+      {/* Hero */}
+    </>
   )
 }
 
