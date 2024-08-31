@@ -5,6 +5,7 @@
 import Category from './components/Category'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import MostSearchedCar from './components/MostSearchedCar'
 
 function Home() {
   return (
@@ -17,6 +18,9 @@ function Home() {
 
       {/* Category */}
       <Category />
+
+      {/* Most Seached Car */}
+      <MostSearchedCar />
     </>
   )
 }
