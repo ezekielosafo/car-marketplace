@@ -1,6 +1,7 @@
 import FakeData from '@/shared/FakeData'
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import CarItem from './CarItem'
 
 function MostSearchedCar() {
   console.log(FakeData.carList)
@@ -10,6 +11,10 @@ function MostSearchedCar() {
         Most Searched Cars
       </h2>
       {/* {FakeData.carList.map(({car, index})=>()} */}
+
+      {FakeData.carList.map((car, index) => (
+        <CarItem car={car} key={index} />
+      ))}
     </div>
   )
 }
