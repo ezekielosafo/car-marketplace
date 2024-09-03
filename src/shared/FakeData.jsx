@@ -9,7 +9,7 @@ function createRandomCarList() {
     image: 'https://images.app.goo.gl/nuw55WwJFxLYihbN9',
     miles: 1000,
     gearType: 'Automatic',
-    Price: faker.finance.amount({ min: 4000, max: 200000 }),
+    price: faker.finance.amount({ min: 4000, max: 200000 }),
   }
 }
 
